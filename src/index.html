@@ -160,6 +160,12 @@
 			<div class="sidepanel__text"><span>Социальные сети</span></div>
 		</aside>
 
+		<div class="hamburger">
+			<span></span>
+			<span class="long"></span>
+			<span></span>
+		</div>
+
 		<div class="menu">
 			<div class="menu__block">
 				<div class="menu__close">
@@ -192,9 +198,9 @@
 							<a href="#portfolio">Мои работы</a>
 						</li>
 						<!-- <li class="menu__link"><a href="#price">Прайс-лист</a></li> -->
-						<li class="menu__link">
+						<!-- <li class="menu__link">
 							<a href="#contacts">Контакты</a>
-						</li>
+						</li> -->
 					</ul>
 				</nav>
 
@@ -232,11 +238,6 @@
 		</div>
 
 		<section class="promo">
-			<div class="hamburger">
-				<span></span>
-				<span class="long"></span>
-				<span></span>
-			</div>
 			<div class="container">
 				<div class="title title_fz16 promo__subtitle">
 					Меня зовут Зайнулин Демид
@@ -245,8 +246,8 @@
 					Я web-разработчик из города Иркутск
 				</h1>
 				<div class="promo__btns">
-					<a href="#" class="promo__link btn">Портфолио</a>
-					<a href="#" class="promo__link">Про меня</a>
+					<a href="#portfolio" class="promo__link btn">Портфолио</a>
+					<a href="#about" class="promo__link">Про меня</a>
 				</div>
 			</div>
 		</section>
@@ -317,7 +318,7 @@
 			</div>
 		</section>
 
-		<section class="resume">
+		<section class="resume" id="resume">
 			<div class="container">
 				<h2 class="title title_fz16 title__section-title">Опыт</h2>
 				<div class="title title_fz36 title__section-subtitle">
@@ -474,7 +475,7 @@
 			</div>
 		</section>
 
-		<section class="skills">
+		<section class="skills" id="skills">
 			<div class="container">
 				<h2 class="title title_fz16 title__section-title">Навыки</h2>
 				<div class="title title_fz36 title__section-subtitle">
@@ -521,7 +522,10 @@
 					</div>
 					<div class="skills__item">
 						<div class="skills__item-img">
-							<img src="img/icons/skills/react.svg" alt="React" />
+							<img
+								src="img/icons/skills/typescript.svg"
+								alt="Typescript"
+							/>
 						</div>
 						<h3 class="title title_fz14">TypeScript</h3>
 						<p>
@@ -543,7 +547,7 @@
 					</div>
 					<div class="skills__item">
 						<div class="skills__item-img">
-							<img src="img/icons/skills/react.svg" alt="React" />
+							<img src="img/icons/skills/redux.svg" alt="Redux" />
 						</div>
 						<h3 class="title title_fz14">Redux</h3>
 						<p>
@@ -559,7 +563,7 @@
 						<div class="title title_fz14 skills__ratings-title">
 							Создание сайтов
 						</div>
-						<div class="skills__ratings-counter">100%</div>
+						<div class="skills__ratings-counter">90%</div>
 						<div class="skills__ratings-line">
 							<span></span>
 						</div>
@@ -586,7 +590,7 @@
 						<div class="title title_fz14 skills__ratings-title">
 							Креативность
 						</div>
-						<div class="skills__ratings-counter">75%</div>
+						<div class="skills__ratings-counter">80%</div>
 						<div class="skills__ratings-line">
 							<span></span>
 						</div>
@@ -600,21 +604,34 @@
 							<span></span>
 						</div>
 					</div>
+					<div class="skills__ratings-item">
+						<div class="title title_fz14 skills__ratings-title">
+							Английский язык
+						</div>
+						<div class="skills__ratings-counter">65%</div>
+						<div class="skills__ratings-line">
+							<span></span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="portfolio">
+		<section class="portfolio" id="portfolio">
 			<div class="container">
 				<h2 class="title title_fz16 title__section-title">Портфолио</h2>
 				<div class="title title_fz36 title__section-subtitle">
-					Мои работы
+					Мои проекты
 				</div>
 				<div class="divider"></div>
 
 				<div class="portfolio__wrapper">
-					<a href="#" class="portfolio__item">
-						<img src="img/works/uber.jpg" alt="uber" />
+					<a
+						href="https://parbiska.github.io/sultan/#/catalog"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<img src="img/works/sultan.jpg" alt="sultan" />
 					</a>
 					<a
 						href="https://parbiska.github.io/Pulse/"
@@ -623,17 +640,15 @@
 					>
 						<img src="img/works/pulse.jpg" alt="pulse" />
 					</a>
-					<a href="#" class="portfolio__item">
-						<img src="img/works/bread.jpg" alt="test" />
+					<a
+						href="https://parbiska.github.io/conquest/"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<img src="img/works/conquest.jpg" alt="conquest" />
 					</a>
-					<a href="#" class="portfolio__item vertical">
+					<a href="#" class="portfolio__item">
 						<img src="img/works/plans.jpg" alt="test" />
-					</a>
-					<a href="#" class="portfolio__item">
-						<img src="img/works/ipad.jpg" alt="test" />
-					</a>
-					<a href="#" class="portfolio__item horizonal">
-						<img src="img/works/mac.jpg" alt="test" />
 					</a>
 				</div>
 			</div>
@@ -687,7 +702,7 @@
 			</div>
 		</section> -->
 
-		<section class="contacts">
+		<!-- <section class="contacts" id="contacts">
 			<div class="container">
 				<div class="contacts__wrapper">
 					<div class="contacts__photo">
@@ -765,7 +780,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<script src="js/app.min.js"></script>
 	</body>

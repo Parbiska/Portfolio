@@ -1,18 +1,24 @@
 const hamburger = document.querySelector('.hamburger'),
-      menu =  document.querySelector('.menu'),
-      closeElem = document.querySelector('.menu__close');
+	menu = document.querySelector('.menu'),
+	closeElem = document.querySelector('.menu__close');
 
 hamburger.addEventListener('click', () => {
-    menu.classList.add('active');
+	menu.classList.add('active');
 });
 
 closeElem.addEventListener('click', () => {
-    menu.classList.remove('active');
+	menu.classList.remove('active');
+});
+
+document.querySelectorAll('.menu__link').forEach((el) => {
+	el.addEventListener('click', () => {
+		menu.classList.remove('active');
+	});
 });
 
 const counters = document.querySelectorAll('.skills__ratings-counter'),
-      lines = document.querySelectorAll('.skills__ratings-line span');
+	lines = document.querySelectorAll('.skills__ratings-line span');
 
-counters.forEach( (item, i) => {
-    lines[i].style.width = item.innerHTML;
+counters.forEach((item, i) => {
+	lines[i].style.width = item.innerHTML;
 });

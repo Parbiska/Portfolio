@@ -6,8 +6,17 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    color: #17252A;
     margin: 0;
     padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-bottom: 46px;
 }
 
 .container {
@@ -20,10 +29,6 @@
     height: 3px;
     background-color: $main-color;
     margin: 25px auto 0 auto;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 @import 'blocks/promo';

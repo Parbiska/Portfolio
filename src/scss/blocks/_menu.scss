@@ -1,5 +1,6 @@
 .hamburger {
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 20px;
     right: 30px;
     height: 21px;
@@ -96,10 +97,20 @@
         bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
-        width: 60px;
+        width: 90px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        a {
+            height: 35px;
+            width: 35px;
+
+            svg {
+                height: 100%;
+                width: 100%;
+            }
+        }
     }
 
     &__overlay {
