@@ -1,0 +1,18 @@
+.progress {
+    margin-top: 120px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        column-gap: 45px;
+        row-gap: 30px;
+    }
+    &__item {
+        width: 350px;
+        height: 70px;
+    }
+    &__title {
+        position: relative;
+        padding: 2px 0 0 13px;
+        @include before_circle;
+    }
+}
