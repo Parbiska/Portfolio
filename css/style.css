@@ -448,7 +448,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 280px;
+  height: 310px;
   z-index: 3;
 }
 .sidepanel__divider {
@@ -572,7 +572,7 @@ body {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 90px;
+  width: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -590,6 +590,9 @@ body {
 .menu__social a svg {
   height: 100%;
   width: 100%;
+}
+.menu-img {
+  height: 100%;
 }
 .menu__overlay {
   position: fixed;
