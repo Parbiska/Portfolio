@@ -97,7 +97,7 @@
         bottom: 50px;
         left: 50%;
         transform: translateX(-50%);
-        width: 90px;
+        width: 120px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -111,6 +111,10 @@
                 width: 100%;
             }
         }
+    }
+
+    &-img {
+        height: 100%;
     }
 
     &__overlay {
