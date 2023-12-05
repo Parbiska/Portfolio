@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Portfolio</title>
+		<meta name="title" content="Мое портфолио" />
+		<meta
+			name="description"
+			content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне"
+		/>
+
+		<link rel="stylesheet" href="css/style.min.css" />
+	</head>
+	<body>
+		<aside class="sidepanel">
+			<a
+				href="https://github.com/Parbiska/"
+				target="_blank"
+				class="sidepanel__link"
+			>
+				<img src="img/icons/social/github.svg" alt="github" />
+			</a>
+			<a
+				href="https://t.me/DemidZaynulin"
+				target="_blank"
+				class="sidepanel__link"
+			>
+				<img src="img/icons/social/telegram.svg" alt="telegram" />
+			</a>
+			<a
+				href="mailto:zaynulin.demid@gmail.com"
+				target="_blank"
+				class="sidepanel__link"
+			>
+				<img src="img/icons/social/email.svg" alt="email" />
+			</a>
+			<div class="sidepanel__divider"></div>
+			<div class="sidepanel__text"><span>Социальные сети</span></div>
+		</aside>
+
+		<div class="hamburger">
+			<span></span>
+			<span class="long"></span>
+			<span></span>
+		</div>
+
+		<div class="menu">
+			<div class="menu__block">
+				<div class="menu__close">
+					<svg
+						width="29"
+						height="30"
+						viewBox="0 0 29 30"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+							fill="black"
+						/>
+					</svg>
+				</div>
+
+				<nav>
+					<ul class="menu__list">
+						<li class="menu__link">
+							<a href="#about">Про меня</a>
+						</li>
+						<li class="menu__link">
+							<a href="#resume">Мой опыт</a>
+						</li>
+						<li class="menu__link">
+							<a href="#skills">Мои навыки</a>
+						</li>
+						<li class="menu__link">
+							<a href="#portfolio">Мои работы</a>
+						</li>
+						<!-- <li class="menu__link"><a href="#price">Прайс-лист</a></li> -->
+						<!-- <li class="menu__link">
+							<a href="#contacts">Контакты</a>
+						</li> -->
+					</ul>
+				</nav>
+
+				<div class="menu__social">
+					<a href="https://github.com/Parbiska/" target="_blank">
+						<img
+							class="menu-img"
+							src="img/icons/social/github.svg"
+							alt="github"
+						/>
+					</a>
+					<a href="https://t.me/DemidZaynulin" target="_blank">
+						<img
+							class="menu-img"
+							src="img/icons/social/telegram.svg"
+							alt="telegram"
+						/>
+					</a>
+					<a href="mailto:zaynulin.demid@gmail.com" target="_blank">
+						<img
+							class="menu-img"
+							src="img/icons/social/email.svg"
+							alt="email"
+						/>
+					</a>
+				</div>
+			</div>
+			<div class="menu__overlay"></div>
+		</div>
+
+		<section class="promo">
+			<div class="container">
+				<div class="title title_fz16 promo__subtitle">
+					Меня зовут Зайнулин Демид
+				</div>
+				<h1 class="title title_fz48 promo__title">
+					Я web-разработчик из города Иркутск
+				</h1>
+				<div class="promo__btns">
+					<a href="#portfolio" class="promo__link btn">Портфолио</a>
+					<a href="#about" class="promo__link">Про меня</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="container">
+				<div class="about__wrapper">
+					<div class="about__photo" hidden>
+						<img src="img/main_photo.jpg" alt="photo" />
+					</div>
+					<div class="about__descr">
+						<h2 class="title title_fz16 about__title">Про меня</h2>
+						<div class="title title_fz36 about__subtitle">
+							Меня зовут Демид
+						</div>
+						<div class="divider"></div>
+						<p class="about__text">
+							Профессиональный веб-разработчик. Специализируюсь на
+							фронтенд-разработке с использованием HTML, CSS и
+							JavaScript, с опытом работы с фреймворком
+							React.Особенно ценю креативный подход к решению
+							сложных задач, а также умение работать в команде и
+							быстро адаптироваться к новым технологиям. Моя цель
+							- продолжать создавать интуитивно понятные и
+							высокофункциональные веб-приложения, которые
+							полностью удовлетворяют потребности пользователей.
+						</p>
+					</div>
+					<div class="about__skills">
+						<div class="about__skills-item">
+							<div class="about__skills-circle">
+								<img
+									src="img/icons/about_me/web_development.svg"
+									alt="web-dev"
+								/>
+							</div>
+							<div>
+								<div class="title title_fz14">
+									Web-разработка
+								</div>
+								<div class="about__skills-text">
+									Процесс создания и поддержки веб-сайтов,
+									включая веб-дизайн, написание кода,
+									управление сервером, обеспечение
+									безопасности и оптимизации для улучшения
+									пользовательского опыта и функциональности.
+								</div>
+							</div>
+						</div>
+						<!-- <div class="about__skills-item">
+							<div class="about__skills-circle">
+								<img
+									src="img/icons/about_me/mobile_dev.svg"
+									alt="mobile-dev"
+								/>
+							</div>
+							<div>
+								<div class="title title_fz14">
+									Разработка приложений
+								</div>
+								<div class="about__skills-text">
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="resume" id="resume">
+			<div class="container">
+				<h2 class="title title_fz16 title__section-title">Опыт</h2>
+				<div class="title title_fz36 title__section-subtitle">
+					Чем я буду полезен
+				</div>
+				<div class="divider"></div>
+
+				<div class="resume__wrapper">
+					<div class="resume__column">
+						<h3 class="title title_fz20 resume__column-title">
+							Образование
+						</h3>
+						<ul>
+							<li>
+								<div class="resume__item">
+									<div class="resume__item-head">
+										<div class="resume__item-icon">
+											<svg
+												width="25"
+												height="24"
+												viewBox="0 0 25 24"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M2.92969 14.954L1.06509 14.5426C0.518604 15.6452 0 16.8837 0 18.3105C0 19.7101 0.497607 20.9336 1.06509 22.0785L7.37305 20.687V23.4312L9.57031 22.3325L11.7676 23.4312V20.6884L18.0263 22.0792C18.5686 20.9853 19.0918 19.7435 19.0918 18.3105C19.0918 18.0636 19.0735 17.8177 19.0428 17.5781H25V0H2.92969V14.954ZM1.90088 20.394C1.71035 19.8902 1.46484 19.0898 1.46484 18.3105C1.46484 17.5312 1.7104 16.7307 1.90088 16.227L7.37305 17.4342V19.1869L1.90088 20.394ZM10.3027 21.061L9.57031 20.6948L8.83789 21.061V17.5781H10.3027V21.061ZM17.1913 20.3931L11.7676 19.1878V17.4332L17.1913 16.2279C17.3817 16.7318 17.627 17.5317 17.627 18.3105C17.627 19.0895 17.3817 19.8895 17.1913 20.3931ZM23.5352 1.46484V16.1133H18.7038C18.4637 15.3788 18.2701 15.0319 18.0263 14.5418L10.9548 16.1133H8.18535L4.39453 15.277V1.46484H23.5352Z"
+													fill="black"
+												/>
+												<path
+													d="M8.83789 2.92969H19.0918V4.39453H8.83789V2.92969Z"
+													fill="black"
+												/>
+												<path
+													d="M5.85938 8.78906H22.0703V10.2539H5.85938V8.78906Z"
+													fill="black"
+												/>
+												<path
+													d="M8.83789 11.7188H19.0918V13.1836H8.83789V11.7188Z"
+													fill="black"
+												/>
+												<path
+													d="M10.3027 5.85938H11.7676V7.32422H10.3027V5.85938Z"
+													fill="black"
+												/>
+												<path
+													d="M13.2324 5.85938H14.6973V7.32422H13.2324V5.85938Z"
+													fill="black"
+												/>
+												<path
+													d="M16.1621 5.85938H17.627V7.32422H16.1621V5.85938Z"
+													fill="black"
+												/>
+											</svg>
+										</div>
+										<h4 class="title title_fz14">
+											<a
+												class="resume__item-link"
+												target="_blank"
+												href="https://www.udemy.com/certificate/UC-843974fc-9c95-4ec2-87bd-a5a6169d8c92/"
+												>Udemy</a
+											>
+										</h4>
+										<div class="resume__item-location">
+											Курсы по Web-разработке
+										</div>
+									</div>
+									<div class="resume__item-body">
+										Мой путь становления web-разработчиком
+										начался с прохождения курса Ивана
+										Петриченко. Это помогло мне освоить базу
+										и понять, что мне это нравится
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="resume__column">
+						<h3 class="title title_fz20 resume__column-title">
+							Опыт работы
+						</h3>
+						<ul>
+							<li>
+								<div class="resume__item">
+									<div class="resume__item-head">
+										<div class="resume__item-icon">
+											<svg
+												width="25"
+												height="25"
+												viewBox="0 0 25 25"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M22.5 3.75H11.25V4.58333H22.5V3.75Z"
+													fill="black"
+												/>
+												<path
+													d="M18.3333 5.41663H11.25V6.24996H18.3333V5.41663Z"
+													fill="black"
+												/>
+												<path
+													d="M18.3333 7.08337H11.25V7.91671H18.3333V7.08337Z"
+													fill="black"
+												/>
+												<path
+													d="M22.5 2.08337H14.5833V2.91671H22.5V2.08337Z"
+													fill="black"
+												/>
+												<path
+													d="M13.75 2.08337H12.9167V2.91671H13.75V2.08337Z"
+													fill="black"
+												/>
+												<path
+													d="M12.9166 16.6666H12.0833V17.5H12.9166V16.6666Z"
+													fill="black"
+												/>
+												<path
+													d="M6.96124 2.79461L6.37207 2.20544L5.53874 3.03878C5.37608 3.20149 5.37608 3.46524 5.53874 3.62794L6.37207 4.46128L6.96124 3.87211L6.42249 3.33336L6.96124 2.79461Z"
+													fill="black"
+												/>
+												<path
+													d="M10.2946 3.03878L9.46124 2.20544L8.87207 2.79461L9.41082 3.33336L8.87207 3.87211L9.46124 4.46128L10.2946 3.62794C10.4572 3.46524 10.4572 3.20149 10.2946 3.03878Z"
+													fill="black"
+												/>
+												<path
+													d="M7.93836 1.95109L7.10425 4.45105L7.89435 4.71467L8.72846 2.21471L7.93836 1.95109Z"
+													fill="black"
+												/>
+												<path
+													d="M21.6667 12.9167V9.58333H20.8334V12.9167H20V8.75H19.1667V12.9167H18.3334V10.8333H17.5V12.9167H16.6667V10.4167H15.8334V12.9167H15V11.25H14.1667V12.9167H13.3334V13.75H22.5V12.9167H21.6667Z"
+													fill="black"
+												/>
+												<path
+													d="M22.0834 0H2.91669C1.53653 0.00135417 0.418041 1.11984 0.416687 2.5V10.6775V10.6812V15.4167V16.6667C0.418041 18.0468 1.53653 19.1653 2.91669 19.1667H8.07585L6.40919 22.5H4.16669C3.47632 22.5 2.91669 23.0596 2.91669 23.75C2.91669 24.4404 3.47632 25 4.16669 25H20.8334C21.5237 25 22.0834 24.4404 22.0834 23.75C22.0834 23.0596 21.5237 22.5 20.8334 22.5H18.5909L16.9242 19.1667H22.0834C23.4635 19.1653 24.582 18.0468 24.5834 16.6667V2.5C24.582 1.11984 23.4635 0.00135417 22.0834 0ZM1.25002 5.8625L2.1971 6.99C2.27627 7.08432 2.39315 7.13875 2.51627 7.13875H3.79169C3.91481 7.13875 4.03169 7.08432 4.11085 6.99L5.05835 5.8625L5.99335 6.16625L6.09669 7.63417C6.10523 7.75693 6.16762 7.86964 6.2671 7.94208L7.29919 8.69208C7.39903 8.76417 7.52549 8.7887 7.64502 8.75917L9.07544 8.40375L9.65377 9.19917L8.87419 10.4492C8.8096 10.554 8.79466 10.6819 8.83335 10.7987L9.22794 12.0117C9.26591 12.1286 9.35356 12.2229 9.46752 12.2692L10.8334 12.8229V13.8062L9.46669 14.36C9.35247 14.406 9.26466 14.5006 9.2271 14.6179L9.1021 15H6.70169C7.63544 13.045 6.80752 10.7032 4.85252 9.76943C3.70424 9.22099 2.36122 9.26359 1.25002 9.88375V5.8625ZM1.25002 10.875C2.59773 9.82359 4.54262 10.0638 5.59398 11.4116C6.40575 12.4521 6.46841 13.8929 5.75002 15H1.25002V10.875ZM20.8334 23.3333C21.0635 23.3333 21.25 23.5199 21.25 23.75C21.25 23.9801 21.0635 24.1667 20.8334 24.1667H4.16669C3.93658 24.1667 3.75002 23.9801 3.75002 23.75C3.75002 23.5199 3.93658 23.3333 4.16669 23.3333H20.8334ZM17.6592 22.5H7.34085L9.00752 19.1667H15.9925L17.6592 22.5ZM23.75 16.6667C23.75 17.5871 23.0038 18.3333 22.0834 18.3333H2.91669C1.99622 18.3333 1.25002 17.5871 1.25002 16.6667V15.8333H5.96752H5.97127H23.75V16.6667ZM23.75 15H10.1063L11.4067 14.4729C11.5638 14.4092 11.6666 14.2566 11.6667 14.0871V12.5417C11.6667 12.372 11.5639 12.2192 11.4067 12.1554L9.95835 11.5696L9.68419 10.7258L10.51 9.40083C10.5996 9.25688 10.593 9.07302 10.4934 8.93583L9.58502 7.68583C9.48528 7.54849 9.31226 7.48536 9.14752 7.52625L7.63252 7.90125L6.91669 7.38125L6.8071 5.82708C6.79518 5.65766 6.68158 5.5124 6.52002 5.46L5.05127 4.9825C4.88966 4.93104 4.71299 4.98182 4.60335 5.11125L3.60044 6.305H2.71169L1.70835 5.11125C1.59867 4.98167 1.42174 4.93083 1.26002 4.9825L1.25002 4.98625V2.5C1.25002 1.57953 1.99622 0.833333 2.91669 0.833333H22.0834C23.0038 0.833333 23.75 1.57953 23.75 2.5V15Z"
+													fill="black"
+												/>
+											</svg>
+										</div>
+										<h4 class="title title_fz14">
+											<a
+												class="resume__item-link"
+												target="_blank"
+												href="https://github.com/Parbiska/"
+												>Фриланс</a
+											>
+										</h4>
+										<div class="resume__item-location">
+											(2023 - настоящее время)
+										</div>
+									</div>
+									<div class="resume__item-body">
+										Спустя 2 года обучения я пришёл к
+										фрилансу, обеспечивая высокий уровень
+										функциональности и пользовательского
+										опыта. Активно следую современным
+										тенденциям в веб-разработке.
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="skills" id="skills">
+			<div class="container">
+				<h2 class="title title_fz16 title__section-title">Навыки</h2>
+				<div class="title title_fz36 title__section-subtitle">
+					Что я использую в работе
+				</div>
+				<div class="divider"></div>
+
+				<div class="skills__items">
+					<div class="skills__item">
+						<div class="skills__item-img">
+							<img src="img/icons/skills/html5.svg" alt="html5" />
+						</div>
+						<h3 class="title title_fz14">HTML5</h3>
+						<p>
+							Именно он создает каркас вашего сайта или
+							приложения, а пятая версия позволит мне создавать
+							более SEO-оптимизированную структуру вашего продукта
+						</p>
+					</div>
+					<div class="skills__item">
+						<div class="skills__item-img">
+							<img src="img/icons/skills/css3.svg" alt="css3" />
+						</div>
+						<h3 class="title title_fz14">CSS3</h3>
+						<p>
+							Этот язык стилей позволяет мне создавать абсолютно
+							любой внешний вид вашего сайта или приложения. Все
+							ограничивается только вашей фантазией!
+						</p>
+					</div>
+					<div class="skills__item">
+						<div class="skills__item-img">
+							<img
+								src="img/icons/skills/js.svg"
+								alt="java script"
+							/>
+						</div>
+						<h3 class="title title_fz14">JavaScript</h3>
+						<p>
+							Этот язык программирования позволяет оживить все что
+							угодно: слайдеры, окна, подсказки, вкладки,
+							получение данных от сервера и многое другое
+						</p>
+					</div>
+					<div class="skills__item">
+						<div class="skills__item-img">
+							<img src="img/icons/skills/git.png" alt="Git" />
+						</div>
+						<h3 class="title title_fz14">Git</h3>
+						<p>
+							Система управления версиями, которая помогает
+							отслеживать изменения в файлах и сотрудничать с
+							другими людьми над проектами.
+						</p>
+					</div>
+					<div class="skills__item">
+						<div class="skills__item-img">
+							<img src="img/icons/skills/react.svg" alt="React" />
+						</div>
+						<h3 class="title title_fz14">React</h3>
+						<p>
+							Эта библиотека позволяет создавать web-приложения.
+							Мы можем создать максимально интерактивный продукт
+							именно под ваши цели
+						</p>
+					</div>
+					<div class="skills__item">
+						<div class="skills__item-img">
+							<img src="img/icons/skills/scss.svg" alt="Scss" />
+						</div>
+						<h3 class="title title_fz14">Scss</h3>
+						<p>
+							Предварительный процессор, который добавляет
+							некоторые дополнительные функции к обычному CSS,
+							делая его более мощным и удобным для использования
+						</p>
+					</div>
+					<div class="skills__item">
+						<div class="skills__item-img">
+							<img
+								src="img/icons/skills/typescript.svg"
+								alt="Typescript"
+							/>
+						</div>
+						<h3 class="title title_fz14">TypeScript</h3>
+						<p>
+							Язык программирования, разработанный как суперсет
+							JavaScript, что означает, что он расширяет его
+							синтаксис, добавляя дополнительные функции, которые
+							делают его более мощным
+						</p>
+					</div>
+					<div class="skills__item">
+						<div class="skills__item-img">
+							<img src="img/icons/skills/redux.svg" alt="Redux" />
+						</div>
+						<h3 class="title title_fz14">Redux</h3>
+						<p>
+							Эта библиотека для управления состоянием приложения
+							в экосистеме JavaScript. При использовнии Redux,
+							состояние приложения предсказуемо и легко
+							отслеживаемо
+						</p>
+					</div>
+				</div>
+
+				<div class="skills__ratings">
+					<div class="skills__ratings-item">
+						<div class="title title_fz14 skills__ratings-title">
+							Создание сайтов
+						</div>
+						<div class="skills__ratings-counter">90%</div>
+						<div class="skills__ratings-line">
+							<span></span>
+						</div>
+					</div>
+					<div class="skills__ratings-item">
+						<div class="title title_fz14 skills__ratings-title">
+							Создание приложений
+						</div>
+						<div class="skills__ratings-counter">85%</div>
+						<div class="skills__ratings-line">
+							<span></span>
+						</div>
+					</div>
+					<div class="skills__ratings-item">
+						<div class="title title_fz14 skills__ratings-title">
+							Работа с данными
+						</div>
+						<div class="skills__ratings-counter">90%</div>
+						<div class="skills__ratings-line">
+							<span></span>
+						</div>
+					</div>
+					<div class="skills__ratings-item">
+						<div class="title title_fz14 skills__ratings-title">
+							Креативность
+						</div>
+						<div class="skills__ratings-counter">80%</div>
+						<div class="skills__ratings-line">
+							<span></span>
+						</div>
+					</div>
+					<div class="skills__ratings-item">
+						<div class="title title_fz14 skills__ratings-title">
+							Soft skills
+						</div>
+						<div class="skills__ratings-counter">95%</div>
+						<div class="skills__ratings-line">
+							<span></span>
+						</div>
+					</div>
+					<div class="skills__ratings-item">
+						<div class="title title_fz14 skills__ratings-title">
+							Английский язык
+						</div>
+						<div class="skills__ratings-counter">65%</div>
+						<div class="skills__ratings-line">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="portfolio" id="portfolio">
+			<div class="container">
+				<h2 class="title title_fz16 title__section-title">Портфолио</h2>
+				<div class="title title_fz36 title__section-subtitle">
+					Мои проекты
+				</div>
+
+				<div class="divider"></div>
+
+				<div class="portfolio__wrapper">
+					<a
+						href="https://parbiska.github.io/SFS-dist/"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<img src="img/works/sfs.png" alt="test" />
+					</a>
+					<a
+						href="https://parbiska.github.io/sultan/#/catalog"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<img src="img/works/sultan.jpg" alt="sultan" />
+					</a>
+					<a
+						href="https://parbiska.github.io/Pulse/"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<img src="img/works/pulse.jpg" alt="pulse" />
+					</a>
+					<a
+						href="https://parbiska.github.io/Mars/"
+						target="_blank"
+						class="portfolio__item"
+					>
+						<img src="img/works/mars.jpg" alt="Mars" />
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section class="price">
+			<div class="container">
+				<h2 class="title title_fz16 title__section-title">
+					Прайс-лист
+				</h2>
+				<div class="divider"></div>
+
+				<div class="price__wrapper">
+					<div class="price__item">
+						<div class="price__type">Landing-page</div>
+						<div class="price__count">от 8000 руб.</div>
+						<div class="price__descr">
+							Одностраничный сайт для презентации
+							услуг/товаров/...
+						</div>
+					</div>
+					<div class="price__item">
+						<div class="price__type">Web-приложение</div>
+						<div class="price__count">от 28000 руб.</div>
+						<div class="price__descr">
+							Приложение внутри браузера для лучшего комфорта
+						</div>
+					</div>
+					<div class="price__item">
+						<div class="price__type">Корпоративный сайт</div>
+						<div class="price__count">от 20000 руб.</div>
+						<div class="price__descr">
+							Сайт для вашего бизнеса или компании
+						</div>
+					</div>
+					<div class="price__item">
+						<div class="price__type">Android/IOS Приложение</div>
+						<div class="price__count">от 25000 руб.</div>
+						<div class="price__descr">
+							Приложение для смартфона любой ОС
+						</div>
+					</div>
+					<div class="price__item">
+						<div class="price__type">Интернет-магазин</div>
+						<div class="price__count">от 30000 руб.</div>
+						<div class="price__descr">
+							Инструмент для ваших продаж в сети
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- <section class="contacts" id="contacts">
+			<div class="container">
+				<div class="contacts__wrapper">
+					<div class="contacts__photo">
+						<img src="img/main_photo.jpg" alt="photo" />
+					</div>
+					<div class="contacts__content">
+						<h2 class="title title_fz16 contacts__title">
+							Контакты
+						</h2>
+						<div class="title title_fz36 contacts__subtitle">
+							Свяжитесь со мной
+						</div> 
+						<div class="divider"></div>
+
+						<div class="title title_fz14 contacts__text">
+							Любым удобным для вас способом:
+						</div>
+
+						<div class="contacts__social">
+							<a
+								href="https://t.me/DemidZay"
+								target="_blank"
+								class="contacts__link"
+							>
+								<img
+									src="img/icons/social/telegram.svg"
+									alt="telegram"
+								/>
+							</a>
+						</div>
+
+						<div class="title title_fz14 contacts__text">
+							Или оставьте ваши данные и я сам вам напишу:
+						</div>
+
+						<form action="#" class="contacts__form">
+							<div class="contacts__input">
+								<input
+									required
+									name="name"
+									id="name"
+									type="text"
+								/>
+								<label for="name">Ваше имя</label>
+							</div>
+							<div class="contacts__input">
+								<input
+									required
+									name="email"
+									id="email"
+									type="email"
+								/>
+								<label for="email">Ваша почта</label>
+							</div>
+
+							<div class="contacts__textarea">
+								<textarea name="text" id="text"></textarea>
+								<label for="text">Ваше сообщение</label>
+							</div>
+							<div class="contacts__triggers">
+								<button class="contacts__btn btn">
+									Отправить сообщение
+								</button>
+								<div class="contacts__policy">
+									<input required type="checkbox" />
+									<span
+										>Я согласен(а) с
+										<a href="policy.html" target="_blank"
+											>политикой конфиденциальности</a
+										></span
+									>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<script src="js/app.min.js"></script>
+	</body>
+</html>
